@@ -10,7 +10,7 @@ public class Post {
     private String nameOfPublic;
     public boolean pinned;
     private ReadFullPost readFullPost;
-
+    private boolean favorite;
 
     public int getId() {
         return id;
@@ -82,6 +82,14 @@ public class Post {
 
     public void setReadFullPost(ReadFullPost readFullPost) {
         this.readFullPost = readFullPost;
+    }
+
+    public boolean isFavorite() {
+        return favorite;
+    }
+
+    public void setFavorite(boolean favorite) {
+        this.favorite = favorite;
     }
 }
 
