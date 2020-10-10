@@ -2,9 +2,8 @@ package ru.netolgy.domain;
 
 public class ReadFullPost {
     private int id;
-    private boolean close;
+    private boolean canClose;
     private String text;
-
 
     public int getId() {
         return id;
@@ -15,11 +14,11 @@ public class ReadFullPost {
     }
 
     public boolean isClose() {
-        return close;
+        return canClose;
     }
 
     public void setClose(boolean close) {
-        this.close = close;
+        this.canClose = close;
     }
 
     public String getText() {

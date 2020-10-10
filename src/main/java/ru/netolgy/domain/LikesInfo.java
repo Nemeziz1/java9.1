@@ -2,7 +2,7 @@ package ru.netolgy.domain;
 
 public class LikesInfo {
     public int count;
-    public boolean like;
+    public boolean canLike;
     
     public int getCount() {
         return count;
@@ -13,10 +13,10 @@ public class LikesInfo {
     }
 
     public boolean getLike() {
-        return like;
+        return canLike;
     }
 
     public void setLike(boolean like) {
-        this.like = like;
+        this.canLike = like;
     }
 }

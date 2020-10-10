@@ -4,7 +4,7 @@ public class Post {
     private int id;
     private LikesInfo likesInfo;
     private CommentsInfo commentsInfo;
-    private int NumberOfWatched;
+    private int numberOfWatched;
     private String date;
     private ShowFriends showFriends;
     private String nameOfPublic;
@@ -37,11 +37,11 @@ public class Post {
     }
 
     public int getNumberOfWatched() {
-        return NumberOfWatched;
+        return numberOfWatched;
     }
 
     public void setNumberOfWatched(int numberOfWatched) {
-        NumberOfWatched = numberOfWatched;
+        this.numberOfWatched = numberOfWatched;
     }
 
     public String getDate() {
